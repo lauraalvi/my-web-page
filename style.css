@@ -1,0 +1,167 @@
+:root{
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-red: #ff5450;
+}
+
+/*HEADER*/
+
+header{
+    background: var(--color-red)
+}
+
+nav{
+    display: flex ;
+    padding: 2%;
+    justify-content: flex-end;
+}
+
+hr{
+    border: none;
+    width: 1px;
+    height: 1px;
+}
+
+/*BODY*/
+
+body{
+    
+}
+
+.container{
+    background: linear-gradient( var(--color-red), var(--color-white));
+    width: 100%;
+}
+
+.firstInfo{
+    display: flex;
+}
+
+h1{
+    font-family: "Yeseva One", serif;
+    font-size: 50px;
+    padding: 20px;
+}
+
+p{
+    font-family: "Quicksand", sans-serif;
+    padding: 2% 5% 3%;
+}
+
+.imgYo{
+    display: flex;
+    justify-content: left;
+    width: 30%;
+    border-radius: 30%;
+    opacity: 90%;
+    margin: 5%;
+}
+
+.containerSegundo{
+    background-color: var(--color-white);
+    display: block;
+    justify-content: space-between;
+}
+
+.columnas{
+    grid-template-columns: 50% 50%;
+}
+
+.rightFrame{
+    margin: 10%;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftFrame{
+    width: 40%;
+    margin: 5%;
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imagenes{
+
+}
+
+.htmlLogo{
+    width: 12%;
+}
+
+.adobeLogo{
+    width: 20%;
+}
+
+.skills{
+    width: 60%;
+    display: block;
+}
+
+h2{
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.languages{
+}
+
+.languagesImg{
+    width: 50%;
+}
+
+.containerTercero{
+    background: linear-gradient(var(--color-white), var(--color-red) );
+}
+
+.textEncryptor{
+    width: 40%;
+    margin: 10%;
+}
+
+.projectEncryptor{
+    display: flex;
+    justify-content: space-between;
+}
+
+#botonTextEncryptor{
+    background-color: var(--color-white); 
+    border: none;
+    border-radius: 40%;
+    width: 20%;
+    height: 30px;
+    color: var(--color-red);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.aluraPlay{
+    width: 40%;
+}
+
+.projectAluraPlay{
+    display: flex;
+}
+
+#botonAluraPlay{
+    background-color: var(--color-white); 
+    border: none;
+    border-radius: 40%;
+    width: 20%;
+    height: 30px;
+    color: var(--color-red);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+footer{
+    text-align: center;
+    background: var(--color-red)
+}
