@@ -10,76 +10,94 @@ header{
     background: var(--color-red)
 }
 
-nav{
+
+/* nav{
     display: flex ;
-    padding: 2%;
     justify-content: flex-end;
-}
+} */
 
 hr{
     border: none;
-    width: 1px;
-    height: 1px;
 }
 
 /*BODY*/
 
 body{
-    
 }
 
 .container{
     background: linear-gradient( var(--color-red), var(--color-white));
     width: 100%;
+    margin: 0 auto;
 }
 
 .firstInfo{
     display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 h1{
     font-family: "Yeseva One", serif;
     font-size: 50px;
-    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 p{
     font-family: "Quicksand", sans-serif;
-    padding: 2% 5% 3%;
+    font-size: 30px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .imgYo{
-    display: flex;
-    justify-content: left;
-    width: 30%;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
     border-radius: 30%;
     opacity: 90%;
-    margin: 5%;
+}
+
+.aboutme{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .containerSegundo{
     background-color: var(--color-white);
-    display: block;
-    justify-content: space-between;
+    /* PARA CONTAINER SIEMPRE WIDTH Y MARGIN EL DUO DINAMICO */
+    width: 100%;
+    margin: 0 auto;
 }
 
 .columnas{
+    display: grid;
     grid-template-columns: 50% 50%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .rightFrame{
-    margin: 10%;
+    margin-top: 10%;
     display: inline-block;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
 }
 
 .leftFrame{
-    width: 40%;
-    margin: 5%;
-    display: grid;
+    margin-top: 10%;
+    display: inline-block;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
 }
 
 .imagenes{
@@ -87,16 +105,16 @@ p{
 }
 
 .htmlLogo{
-    width: 12%;
+    width: 36%;
 }
 
 .adobeLogo{
-    width: 20%;
+    width: 60%;
 }
 
 .skills{
-    width: 60%;
-    display: block;
+    width: 100%;
+    margin-top: 5%;
 }
 
 h2{
@@ -106,24 +124,44 @@ h2{
 }
 
 .languages{
+    width: 90%;
+    margin: 0 auto;
 }
 
 .languagesImg{
-    width: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }
 
 .containerTercero{
     background: linear-gradient(var(--color-white), var(--color-red) );
+    width: 100%;
+    margin: 0 auto;
+}
+
+.projects{
+    width: 90%;
+    margin: 0 auto;
 }
 
 .textEncryptor{
-    width: 40%;
-    margin: 10%;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .projectEncryptor{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.projectEncryptorButton{
+    display: inline-block;
+    flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 #botonTextEncryptor{
@@ -140,11 +178,16 @@ h2{
 }
 
 .aluraPlay{
-    width: 40%;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .projectAluraPlay{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 5%;
 }
 
 #botonAluraPlay{

@@ -14,13 +14,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Yeseva+One&display=swap" rel="stylesheet"></head>
     <header>
+        <!--
         <nav>
             <p>HOME</p>
             <p>ABOUT</p>
             <p>PROJECTS</p>
         </nav>
+    -->
     </header>
-    <hr>
     <body>
         <div class="container">
             <h1>Hi, I'm Laura!</h1>
@@ -52,28 +53,31 @@
                         <img src="Imagenes/Logo html.png" class="htmlLogo">
                         <img src="Imagenes/Skills.png" class="skills">
                     </div>
-                    <div class="languages">
-                        <h2>Languages</h2>
-                        <img src="Imagenes/Languages.png" class="languagesImg">
-                    </div>
                 </div>
+            </div>
+            <div class="languages">
+                <h1>Languages</h1>
+                <img src="Imagenes/Languages.png" class="languagesImg">
             </div>
         </div>
         <div class="containerTercero">
             <h1>Projects</h1>
             <p>These are some of my projects</p>
-
-            <div class="projectEncryptor">
-                <img src="Imagenes/Text Encryptor.png" class="textEncryptor">
-                <p>I designed a Text Encryptor with HTML, CSS and Javascript. The encryptor allowed to write a text, convert it to an encrypted message - based on some commands I had imposed for the encryption - the new message would appear in a box and with this you can decrypt the hidden message by using the buttons.</p>
-                <button id="botonTextEncryptor">Text Encryptor</button>
-                <script src="main.js"></script>
-            </div>
-            <div class="projectAluraPlay">
-                <p>I created a web page for playing Alura videos and courses in “mobile first” mode with HTML, CSS, flexbox and Javascript. The goal was to have a landing page that would allow students to access the audiovisual content more easily and without leaving the page.</p>
-                <button id="botonAluraPlay">Alura Play</button>
-                <script src="main.js"></script>
-                <img src="Imagenes/Alura Play.png" class="aluraPlay">
+            <div class="projects">
+                <div class="projectEncryptor">
+                    <img src="Imagenes/Text Encryptor.png" class="textEncryptor">
+                    <div class="projectEncryptorButton">
+                        <p>I designed a Text Encryptor with HTML, CSS and Javascript. The encryptor allowed to write a text, convert it to an encrypted message - based on some commands I had imposed for the encryption - the new message would appear in a box and with this you can decrypt the hidden message by using the buttons.</p>
+                        <button id="botonTextEncryptor">Text Encryptor</button><script src="main.js"></script>
+                    </div>
+                </div>
+                <div class="projectAluraPlay">
+                    <div class="projectAluraPlayButton">
+                        <p>I created a web page for playing Alura videos and courses in “mobile first” mode with HTML, CSS, flexbox and Javascript. The goal was to have a landing page that would allow students to access the audiovisual content more easily and without leaving the page.</p>
+                        <button id="botonAluraPlay">Alura Play</button><script src="main.js"></script>
+                    </div>
+                    <img src="Imagenes/Alura Play.png" class="aluraPlay">
+                </div>
             </div>
         </div>
     </body>
